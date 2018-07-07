@@ -5,6 +5,8 @@
         [Fun Fun Function] https://www.youtube.com/watch?v=2d7s3spWAzo&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84
         [The Coding Train] https://www.youtube.com/watch?v=QO4NXhWo_NM
         [The Coding Train] https://www.youtube.com/watch?v=AwyoVjVXnLk
+
+    Reference: https://developer.mozilla.org/en-US/docs/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
 */
 
 /*
