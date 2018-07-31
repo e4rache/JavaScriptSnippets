@@ -7,15 +7,17 @@
 const waitForMe = (message = "_default_message_", msec = 10000) => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve(`the message is "${message}"`);
+      resolve(`The message is "${message}"`);
     }, msec);
   });
 };
 
+/* The first call return first */
 waitForMe().then(result => console.log(result));
 waitForMe("2nd call", 1000).then(res => console.log(res));
 console.log("**** ***");
 
+/* The calls are made consecutively */
 const as = async () => {
   const res = await waitForMe("await 1st call");
   console.log(res);
